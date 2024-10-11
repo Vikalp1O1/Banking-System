@@ -1,0 +1,59 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bank.jpg'); /* Replace with the actual image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed for parallax effect */
+}
+
+.home-content {
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #7f8c8d;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home-btn:hover {
+    background-color: #2980b9;
+}
+
+.register-btn {
+    background-color: #e74c3c;
+}
+
+.register-btn:hover {
+    background-color: #c0392b;
+}

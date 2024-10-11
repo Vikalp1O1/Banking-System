@@ -1,0 +1,59 @@
+/* src/components/AccountPage.css */
+
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center content vertically */
+    height: 100vh;
+    background-image: url('pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background scrolling */
+    position: relative; /* Positioning context for child elements */
+}
+
+.account-header {
+    position: absolute; /* Position the header relative to the container */
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+.account-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.account-content h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.account-content p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
