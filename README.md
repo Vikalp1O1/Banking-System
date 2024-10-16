@@ -81,15 +81,4 @@ The **Online Banking System** is a web-based banking application built with **Sp
 - Add secure password encryption.
 - Improve UI with more advanced styling.
 
-## License
-This project is licensed under the MIT License.
-"""
 
-# Define the path where the README.md will be created
-path = "/mnt/data/README.md"
-
-# Write the content to the README.md file
-with open(path, "w") as file:
-    file.write(content)
-
-path
